@@ -6,7 +6,7 @@ import AppRoutes from "./routes";
 const App: React.FC = () => {
     return (
         <Providers>
-            <div className="bg-gray-900 w-full h-full">
+            <div className="bg-white w-full h-dscreen font-sans">
                 <AppRoutes />
             </div>
         </Providers>
